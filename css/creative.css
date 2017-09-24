@@ -173,8 +173,8 @@ header.masthead {
       color: rgba(255, 255, 255, 0.7); }
   @media (min-width: 768px) {
     header.masthead {
-      height: 100%;
-      min-height: 600px; }
+      height: 70%;
+      min-height: 500px; }
       header.masthead .header-content {
         position: absolute;
         top: 50%;
