@@ -344,10 +344,23 @@ header.masthead {
   padding: 15px 30px; }
 
 .fa.fa-star {
-  position: relative;
-  top: 5px; }
+  position: relative; }
 
 .hr-section {
   max-width: 80%;
   border-width: 1px;
   border-color: #777777; }
+
+.mw100 {
+  max-width: 100%; }
+
+span.phone-number {
+  position: relative;
+  bottom: 18px; }
+
+.gallery {
+  height: 100%;
+  overflow-y: auto; }
+
+.map-info__title {
+  margin: 10px 0; }

@@ -56,7 +56,7 @@
           <hr>
           <p>Servicii de inchirieri unelte in Brasov</p>
           <!-- TODO: Deschide la ora cu tare -->
-          <p>Servicii de inchirieri unelte in Brasov</p>
+          <p id="js-status"></p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="tel:+40-753-814-492">Apeleaza acum</a>
         </div>
       </div>
@@ -73,31 +73,31 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box">
               <p class="text-muted">
-                <i class="fa fa-2x fa-star text-primary sr-icons"></i>
+                <i class="fa fa-star text-primary sr-icons"></i>
                 Our templates are updated regularly so they don't break.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box">
               <p class="text-muted">
-                <i class="fa fa-2x fa-star text-primary sr-icons"></i>
+                <i class="fa fa-star text-primary sr-icons"></i>
                 You can use this theme as is, or you can make changes!</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box">
               <p class="text-muted">
-                <i class="fa fa-2x fa-star text-primary sr-icons"></i>
+                <i class="fa fa-star text-primary sr-icons"></i>
                 We update dependencies to keep things fresh.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box">
               <p class="text-muted">
-                <i class="fa fa-2x fa-star text-primary sr-icons"></i>
+                <i class="fa fa-star text-primary sr-icons"></i>
                 You have to make your websites with love these days!</p>
             </div>
           </div>
@@ -105,44 +105,43 @@
       </div>
     </section>
 
-    <hr class="hr-section">
-
     <section class="p-0" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">De ce sa inchiriez scule?</h2>
+            <h2 class="section-heading">Galerie unelte</h2>
             <hr class="primary">
           </div>
         </div>
       </div>
+      <!-- TODO: Adauga icoana si descriere pentru fiecare unealta -->
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box">
+              <i class="fa fa-5x fa-star text-primary sr-icons"></i>
               <p class="text-muted">
-                <i class="fa fa-2x fa-star text-primary sr-icons"></i>
                 Our templates are updated regularly so they don't break.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box">
+              <i class="fa fa-5x fa-star text-primary sr-icons"></i>
               <p class="text-muted">
-                <i class="fa fa-2x fa-star text-primary sr-icons"></i>
                 You can use this theme as is, or you can make changes!</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box">
+              <i class="fa fa-5x fa-star text-primary sr-icons"></i>
               <p class="text-muted">
-                <i class="fa fa-2x fa-star text-primary sr-icons"></i>
                 We update dependencies to keep things fresh.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box">
+              <i class="fa fa-5x fa-star text-primary sr-icons"></i>
               <p class="text-muted">
-                <i class="fa fa-2x fa-star text-primary sr-icons"></i>
                 You have to make your websites with love these days!</p>
             </div>
           </div>
@@ -154,15 +153,28 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <h2 class="section-heading">Date de contact</h2>
+            <i class="fa fa-phone fa-3x sr-contact"></i>
+            <span class="phone-number">0753 814 492</span>
             <hr class="primary">
-            <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12 ml-auto text-center">
-            <i class="fa fa-phone fa-3x sr-contact"></i>
-            <p>0753 814 492</p>
+          <div class="col-lg-6 col-md-6">
+            <img src="img/map.png" class="mw100"/>
+          </div>
+          <div class="col-lg-6 col-md-6 text-center">
+            <dl class="map-info map-info-hours" id="hours">
+                    <dt class="map-info__title">Program de lucru</dt>
+                    <dd class="map-info__item">
+                        <dl class="map-info__hours">
+                            <dt class="map-info__hours-head">luni - vineri</dt>
+                            <dd class="map-info__hours-value"><span class="map-info__hours-unit">09:00–17:00</span></dd>
+                            <dt class="map-info__hours-head">sâm. - dum.</dt>
+                            <dd class="map-info__hours-value"><span class="map-info__hours-unit">Închis</span></dd>
+                        </dl>
+                    </dd>
+                </dl>
           </div>
         </div>
       </div>
@@ -177,10 +189,8 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
+    
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-
   </body>
-
 </html>

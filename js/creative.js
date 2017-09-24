@@ -68,4 +68,21 @@
     }
   });
 
+  $(function() {
+    var $businessStatus = $("#js-status");
+
+    var openMessage = "Deschis intre 9:00 - 17:00";
+    var closedMessage = "Deschis de luni pana vineri intre 9:00 - 17:00";
+
+    $businessStatus.html(function() {
+      return isWeekDay() ? openMessage : closedMessage;
+    });
+
+    function isWeekDay() {
+      var d = new Date();
+      var dayOfWeek = d.getDay();
+      return dayOfWeek >= 1 && dayOfWeek <= 5;
+    }
+  });
+
 })(jQuery); // End of use strict
