@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Createive v4.0.0-beta (http://startbootstrap.com/template-overviews/creative)
+ * Start Bootstrap - Createive v4.0.0-beta (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
@@ -342,3 +342,12 @@ header.masthead {
 
 .btn-xl {
   padding: 15px 30px; }
+
+.fa.fa-star {
+  position: relative;
+  top: 5px; }
+
+.hr-section {
+  max-width: 80%;
+  border-width: 1px;
+  border-color: #777777; }
