@@ -170,7 +170,7 @@ header.masthead {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 50px;
-      color: rgba(255, 255, 255, 0.7); }
+      color: #eeeeee; }
   @media (min-width: 768px) {
     header.masthead {
       height: 70%;
@@ -189,7 +189,7 @@ header.masthead {
           header.masthead .header-content .header-content-inner h1 {
             font-size: 50px; }
           header.masthead .header-content .header-content-inner p {
-            font-size: 18px;
+            font-size: 20px;
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
@@ -369,5 +369,8 @@ span.phone-number {
   width: 100px;
   height: 100px; }
   #portfolio .tool-icon.hammer {
+    width: 120px;
     height: 80px;
     margin-top: 20px; }
+  #portfolio .tool-icon.plate {
+    width: 120px; }

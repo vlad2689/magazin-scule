@@ -32,8 +32,13 @@ span.phone-number {
     height: 100px;
 
     &.hammer {
+      width: 120px;
       height: 80px;
       margin-top: 20px;
+    }
+
+    &.plate {
+      width: 120px;
     }
   }
 }
