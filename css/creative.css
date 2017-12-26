@@ -364,3 +364,10 @@ span.phone-number {
 
 .map-info__title {
   margin: 10px 0; }
+
+#portfolio .tool-icon {
+  width: 100px;
+  height: 100px; }
+  #portfolio .tool-icon.hammer {
+    height: 80px;
+    margin-top: 20px; }
