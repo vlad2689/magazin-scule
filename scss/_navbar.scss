@@ -27,7 +27,7 @@
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
-        color: $gray-darker;
+        color: $theme-primary;
         &:hover {
           color: $theme-primary;
         }
@@ -54,6 +54,7 @@
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
       color: fade-out(white, .3);
+      font-size: 1.3em;
       &:hover {
         color: white;
       }

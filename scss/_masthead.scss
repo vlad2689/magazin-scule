@@ -5,7 +5,7 @@ header.masthead {
   width: 100%;
   min-height: auto;
   text-align: center;
-  color: white;
+  color: $gray-lighter;
   background-image: url('../img/header.jpeg');
   background-position: center;
   @include background-cover;
@@ -30,7 +30,6 @@ header.masthead {
         font-size: 16px;
         font-weight: 300;
         margin-bottom: 50px;
-        color: white;
         z-index: 1;
       }
     }
