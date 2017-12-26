@@ -8,4 +8,9 @@
   p {
     margin-bottom: 0;
   }
+
+  .tool-text {
+    color: darken($gray-light, 10%);
+    font-size: 1.2em;
+  }
 }

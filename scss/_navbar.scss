@@ -46,6 +46,7 @@
     background-color: transparent;
     .navbar-brand {
       color: fade-out(white, .3);
+      font-size: 1.3em;
       &:focus,
       &:hover {
         color: white;
@@ -73,6 +74,7 @@
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
         color: $gray-darker;
+        font-size: 16px;
         &:hover {
           color: $theme-primary;
         }

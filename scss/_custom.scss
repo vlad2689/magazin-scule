@@ -22,8 +22,15 @@ span.phone-number {
     overflow-y: auto;
 }
 
-.map-info__title {
-    margin: 10px 0;
+.map-info {
+  &__title {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+  }
+
+  &__item {
+    font-size: 1.1em;
+  }
 }
 
 #portfolio {
@@ -40,5 +47,15 @@ span.phone-number {
     &.plate {
       width: 120px;
     }
+  }
+}
+
+#contact {
+  .row:first-of-type {
+    margin-bottom: 20px;
+  }
+
+  img {
+    margin-bottom: 20px;
   }
 }
