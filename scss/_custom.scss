@@ -12,9 +12,15 @@
     max-width: 100%;
 }
 
+.cPri {
+  color: $theme-primary;
+}
+
 span.phone-number {
     position: relative;
     bottom: 18px;
+    font-size: 1.2em;
+    color: $theme-primary;
 }
 
 .gallery {
@@ -57,5 +63,16 @@ span.phone-number {
 
   img {
     margin-bottom: 20px;
+  }
+}
+
+.benefits {
+  &__perk-header {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+  }
+  
+  &__perk-text {
+    color: #333;
   }
 }

@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Createive v4.0.0-beta (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 body,
@@ -89,29 +89,21 @@ body {
     text-transform: uppercase;
     color: #F05F40;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
-    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #f05f40; }
   #mainNav .navbar-toggle {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     color: #222222; }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+  #mainNav .navbar-nav > li.nav-item > .nav-link:focus,
+  #mainNav .navbar-nav > li.nav-item > .nav-link {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
     color: #F05F40; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-      color: #F05F40; }
-    #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active,
-    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    #mainNav .navbar-nav > li.nav-item > .nav-link:focus.active,
+    #mainNav .navbar-nav > li.nav-item > .nav-link.active {
       color: #F05F40 !important;
       background-color: transparent; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover,
-      #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        background-color: transparent; }
   @media (min-width: 992px) {
     #mainNav {
       border-color: rgba(255, 255, 255, 0.3);
@@ -119,30 +111,20 @@ body {
       #mainNav .navbar-brand {
         color: rgba(255, 255, 255, 0.7);
         font-size: 1.3em; }
-        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-          color: white; }
-      #mainNav .navbar-nav > li.nav-item > a.nav-link,
-      #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+      #mainNav .navbar-nav > li.nav-item > .nav-link,
+      #mainNav .navbar-nav > li.nav-item > .nav-link:focus {
         color: rgba(255, 255, 255, 0.7);
         font-size: 1.3em; }
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-        #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-          color: white; }
       #mainNav.navbar-shrink {
         border-color: rgba(34, 34, 34, 0.05);
         background-color: white; }
         #mainNav.navbar-shrink .navbar-brand {
           font-size: 16px;
           color: #F05F40; }
-          #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-            color: #f05f40; }
-        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-        #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > .nav-link,
+        #mainNav.navbar-shrink .navbar-nav > li.nav-item > .nav-link:focus {
           color: #222222;
-          font-size: 16px; }
-          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
-          #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-            color: #F05F40; } }
+          font-size: 16px; } }
 
 header.masthead {
   position: relative;
@@ -371,9 +353,14 @@ header.masthead {
 .mw100 {
   max-width: 100%; }
 
+.cPri {
+  color: #F05F40; }
+
 span.phone-number {
   position: relative;
-  bottom: 18px; }
+  bottom: 18px;
+  font-size: 1.2em;
+  color: #F05F40; }
 
 .gallery {
   height: 100%;
@@ -401,3 +388,10 @@ span.phone-number {
 
 #contact img {
   margin-bottom: 20px; }
+
+.benefits__perk-header {
+  font-size: 1.2em;
+  margin-bottom: 4px; }
+
+.benefits__perk-text {
+  color: #333; }

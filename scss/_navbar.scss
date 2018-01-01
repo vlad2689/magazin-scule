@@ -9,10 +9,6 @@
     text-transform: uppercase;
     color: $theme-primary;
     @include sans-serif-font;
-    &:focus,
-    &:hover {
-      color: darken($theme-primary, .1);
-    }
   }
   .navbar-toggle {
     font-size: 12px;
@@ -22,21 +18,15 @@
   }
   .navbar-nav {
     > li.nav-item {
-       > a.nav-link:focus,
-      > a.nav-link {
+       > .nav-link:focus,
+      > .nav-link {
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
         color: $theme-primary;
-        &:hover {
-          color: $theme-primary;
-        }
         &.active {
           color: $theme-primary !important;
           background-color: transparent;
-          &:hover {
-            background-color: transparent;
-          }
         }
       }
     }
@@ -47,18 +37,11 @@
     .navbar-brand {
       color: fade-out(white, .3);
       font-size: 1.3em;
-      &:focus,
-      &:hover {
-        color: white;
-      }
     }
-    .navbar-nav > li.nav-item > a.nav-link,
-    .navbar-nav > li.nav-item > a.nav-link:focus {
+    .navbar-nav > li.nav-item > .nav-link,
+    .navbar-nav > li.nav-item > .nav-link:focus {
       color: fade-out(white, .3);
       font-size: 1.3em;
-      &:hover {
-        color: white;
-      }
     }
     &.navbar-shrink {
       border-color: fade-out($gray-darker, .95);
@@ -66,18 +49,11 @@
       .navbar-brand {
         font-size: 16px;
         color: $theme-primary;
-        &:focus,
-        &:hover {
-          color: darken($theme-primary, .1);
-        }
       }
-      .navbar-nav > li.nav-item > a.nav-link,
-      .navbar-nav > li.nav-item > a.nav-link:focus {
+      .navbar-nav > li.nav-item > .nav-link,
+      .navbar-nav > li.nav-item > .nav-link:focus {
         color: $gray-darker;
         font-size: 16px;
-        &:hover {
-          color: $theme-primary;
-        }
       }
     }
   }

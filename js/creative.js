@@ -71,8 +71,8 @@
   $(function() {
     var $businessStatus = $("#js-status");
 
-    var openMessage = "Deschis intre 9:00 - 17:00";
-    var closedMessage = "Deschis de luni pana vineri intre 9:00 - 17:00";
+    var openMessage = "Deschis astăzi între 9:00 - 17:00";
+    var closedMessage = "Deschis de luni până vineri între 9:00 - 17:00";
 
     $businessStatus.html(function() {
       return isWeekDay() ? openMessage : closedMessage;
