@@ -76,3 +76,14 @@ span.phone-number {
     color: #333;
   }
 }
+
+.navbar__contact {
+  color: unset;
+  &:hover {
+    color: unset !important;
+  }
+}
+
+.navbar-shrink .navbar__contact {
+  color: $theme-primary !important;
+}

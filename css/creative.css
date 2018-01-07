@@ -395,3 +395,11 @@ span.phone-number {
 
 .benefits__perk-text {
   color: #333; }
+
+.navbar__contact {
+  color: unset; }
+  .navbar__contact:hover {
+    color: unset !important; }
+
+.navbar-shrink .navbar__contact {
+  color: #F05F40 !important; }
