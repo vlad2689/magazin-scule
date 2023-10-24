@@ -1,0 +1,14 @@
+# DO NOT RENAME THIS FILE.
+# When deploying, always place this file in /home/sisilace/sisilace
+# Do not run this file many times, as it's subject to CA rate limits.
+# See README.md for more details.
+version: '3.8'
+services:
+
+  certbot:
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    command: certonly --webroot -w /var/www/certbot --force-renewal --email nedelescu.vlad@gmail.com -d inchiriere-scule-brasov.ro --agree-tos

@@ -1,0 +1,89 @@
+.fa.fa-star {
+    position: relative;
+}
+
+.hr-section {
+    max-width: 80%;
+    border-width: 1px;
+    border-color: $gray-light;
+}
+
+.mw100 {
+    max-width: 100%;
+}
+
+.cPri {
+  color: $theme-primary;
+}
+
+span.phone-number {
+    position: relative;
+    bottom: 18px;
+    font-size: 1.2em;
+    color: $theme-primary;
+}
+
+.gallery {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.map-info {
+  &__title {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+  }
+
+  &__item {
+    font-size: 1.1em;
+  }
+}
+
+#portfolio {
+  .tool-icon {
+    width: 100px;
+    height: 100px;
+
+    &.hammer {
+      width: 120px;
+      height: 80px;
+      margin-top: 20px;
+    }
+
+    &.plate {
+      width: 120px;
+    }
+  }
+}
+
+#contact {
+  .row:first-of-type {
+    margin-bottom: 20px;
+  }
+
+  img {
+    margin-bottom: 20px;
+  }
+}
+
+.benefits {
+  &__perk-header {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+  }
+  
+  &__perk-text {
+    color: #333;
+  }
+}
+
+.navbar__contact {
+  color: unset;
+  &:hover {
+    color: unset !important;
+  }
+}
+
+.navbar-shrink .navbar__contact {
+  color: $theme-primary !important;
+}

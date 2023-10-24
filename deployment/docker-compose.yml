@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  web-interface:
+    image: web-interface
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: on-failure
+
+  # Uncomment this to run init-letsencrypt.sh on a new project.
+  # Comment it again once init-letsencrypt.sh has ran, and run the docker-compose.certbot.yml file
+  # certbot:
+  #   image: certbot/certbot
+  #   restart: unless-stopped
+  #   volumes:
+  #     - ./certbot/conf:/etc/letsencrypt
+  #     - ./certbot/www:/var/www/certbot
+
+  nginx:
+    container_name: nginx
+    restart: unless-stopped
+    image: nginx
+    ports:
+        - 80:80
+        - 443:443
+    volumes:
+        - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+        - ./certbot/conf:/etc/letsencrypt
+        - ./certbot/www:/var/www/certbot
+
+  # Certbot service can be found in docker-compose.certbot.yml
